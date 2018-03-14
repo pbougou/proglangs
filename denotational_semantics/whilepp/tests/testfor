@@ -1,0 +1,5 @@
+four := succ succ succ succ 0;
+result := 0;
+for four++ do result++;
+six := succ four;
+if  four < six then result := four else result := six

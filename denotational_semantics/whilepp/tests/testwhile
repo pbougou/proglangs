@@ -1,0 +1,5 @@
+three := succ succ succ 0;
+guard := three;
+result := 0;
+while 0 < guard-- do result++;
+result := guard

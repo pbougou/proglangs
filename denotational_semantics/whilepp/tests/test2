@@ -1,0 +1,3 @@
+four := succ succ succ succ 0;
+result := 0;
+while 0 < four-- do result++

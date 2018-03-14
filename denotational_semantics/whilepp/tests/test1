@@ -1,0 +1,9 @@
+x := pred pred 0;
+x++;
+x--;
+x++;
+x++;
+skip;
+result := x
+
+
