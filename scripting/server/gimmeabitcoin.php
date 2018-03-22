@@ -1,3 +1,4 @@
+// php 7.1
 <?php
 session_start();
 function eval_bitcoin($bitcoin)
