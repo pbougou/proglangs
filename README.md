@@ -3,7 +3,7 @@
 | **Title** | **Description** |
 | ----- | ----- |
 |**[Algorithms in Haskell](algorithms_in_haskell/)**| Implentation of articulation points and [another problem with amplifiers](https://courses.softlab.ntua.gr/pl2/2017b/exercises/haskell.pdf) given at Programming Languages II course |
-| ** [Property-based testing in Haskell's QuickCheck](bird_tree/) ** | <ul> <li> Tree data structure implementation and testing<il><li> [Bird's tree](http://www.cs.ox.ac.uk/ralf.hinze/publications/Bird.pdf) implementation and testing <il> </ul> |
+| **[Property-based testing in Haskell's QuickCheck](bird_tree/)** | <ul> <li> Tree data structure implementation and testing<il><li> [Bird's tree](http://www.cs.ox.ac.uk/ralf.hinze/publications/Bird.pdf) implementation and testing <il> </ul> |
 | **[Interpreter](interpreter/)** | Using GNU C extensions and [these techniques](https://courses.softlab.ntua.gr/pl2/2009b/slides/vm.pdf), there are implemented interpreters for: <ul><li>[Befunge 93](http://catseye.tc/view/befunge-93/doc/Befunge-93.markdown)<il><li>Bytecode language [defined here](https://courses.softlab.ntua.gr/pl2/2017b/exercises/vm.pdf) <il><ul> |
 | **[Garbage collector](mark_and_sweep_gc/)** | It is integrated with the interpreter for bytecode language. Algorithms and techniques used for gc: <ul><li>Find all unreachable memory objects with mark and sweep.<il><li>GC is called every time a new heap allocation happens.<il><ul>  |
 | **[Axiomatic semantics](frama-c/)** | For program verification in C programming language, [Frama-C](http://frama-c.com/) is used. There are verified two algorithms' implementations:<ul><li>Find the maximum number of same consecutive elements in an array.<il><li>Check if an array contains the same element twice.<il><ul> |
