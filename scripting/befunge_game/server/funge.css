@@ -1,0 +1,54 @@
+body,td,th {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: #CCCCCC;
+}
+
+body {
+  background-color: #333399;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 48px;
+  color: #00FF66;
+}
+
+.question {color: #FFCC33}
+.number {color: #FFFF33}
+.md5sum {color: #FFCCFF}
+.emph {color: #99ee99}
+.alert {color: #ee77aa}
+
+.right {
+  color: #33FF66;
+  font-weight: bold;
+}
+
+.wrong {
+  color: #FF3366;
+  font-weight: bold;
+}
+
+a:link {
+  color: #CCFFFF;
+}
+
+a:visited {
+  color: #CCFFFF;
+}
+
+textarea {
+  background-color: #eeee66;
+  color: #333399;
+}
+
+textarea.wide {
+  font-family: monospace;
+  font-size: x-large;
+  color: #333333;
+  border: 1px solid black;
+  padding: 8px;
+}
+
