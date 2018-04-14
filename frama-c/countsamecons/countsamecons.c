@@ -24,25 +24,25 @@ int best = 0, i = 0;
   @ loop assigns i, best;
   @ loop variant N-i;
   @*/
-	while(i < N) {
-	  int j = i+1;
-		
-		/*@ loop invariant 0 <= i < j <= N;
-		  @ loop invariant samecnt(x, i, j, j);
-          @ loop invariant \exists integer k; samecnt(x, k, k+best, i);
-		  @ loop invariant \forall integer k,m; samecnt(x, k, k+m, i) ==> m <= best;
-          @ loop assigns j;
-		  @ loop variant N-j;
-		  @*/
-		while(j < N && x[j] == x[i]) 
-			++j;
-	
-	  if(j-i > best) 
-		best = j-i;
+  while(i < N) {
+    int j = i+1;
 
-	  i = j;
-	}
-	return best;
+    /*@ loop invariant 0 <= i < j <= N;
+      @ loop invariant samecnt(x, i, j, j);
+      @ loop invariant \exists integer k; samecnt(x, k, k+best, i);
+      @ loop invariant \forall integer k,m; samecnt(x, k, k+m, i) ==> m <= best;
+      @ loop assigns j;
+      @ loop variant N-j;
+      @*/
+    while(j < N && x[j] == x[i])
+      ++j;
+
+    if(j-i > best)
+    best = j-i;
+
+    i = j;
+  }
+  return best;
 }
 
 /*
